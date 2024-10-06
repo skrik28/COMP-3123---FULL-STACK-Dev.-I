@@ -1,0 +1,23 @@
+{
+    "id":1,
+    "name":"John Jacobs",
+    "username":"johnj",
+    "password":"john@123",
+    "email":"johnj@gmail.com",
+    "address":{
+       "street":"Anndale Drive",
+       "suite":"Apt. 556",
+       "city":"Weed",
+       "zipcode":"53059",
+       "geo":{
+          "lat":"-40.1234",
+          "lng":"81.4321"
+       }
+    },
+    "phone":"1-530-505-5050 x123",
+    "website":"bilderberg.org",
+    "company":{
+       "name":"Phil's Crematorium",
+       "catchPhrase":"burn them all"
+    }
+ }
