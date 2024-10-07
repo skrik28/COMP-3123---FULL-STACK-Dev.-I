@@ -1,0 +1,18 @@
+{
+  "name": "100912566_comp3123-exec05",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Simon Kriksciunas",
+  "license": "ISC",
+  "description": "COMP3123 Lab05 Exercise",
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
