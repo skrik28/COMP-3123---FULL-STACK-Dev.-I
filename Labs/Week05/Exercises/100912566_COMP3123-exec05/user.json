@@ -1,23 +1,24 @@
 {
-    "id":1,
-    "name":"John Jacobs",
-    "username":"johnj",
-    "password":"john@123",
-    "email":"johnj@gmail.com",
-    "address":{
-       "street":"Anndale Drive",
-       "suite":"Apt. 556",
-       "city":"Weed",
-       "zipcode":"53059",
-       "geo":{
-          "lat":"-40.1234",
-          "lng":"81.4321"
-       }
-    },
-    "phone":"1-530-505-5050 x123",
-    "website":"bilderberg.org",
-    "company":{
-       "name":"Phil's Crematorium",
-       "catchPhrase":"burn them all"
-    }
- }
+   "id":1,
+   "name":"Leanne Graham",
+   "username":"bret",
+   "password":"bret@123",
+   "email":"Sincere@april.biz",
+   "address":{
+      "street":"Kulas Light",
+      "suite":"Apt. 556",
+      "city":"Gwenborough",
+      "zipcode":"92998-3874",
+      "geo":{
+         "lat":"-37.3159",
+         "lng":"81.1496"
+      }
+   },
+   "phone":"1-770-736-8031 x56442",
+   "website":"hildegard.org",
+   "company":{
+      "name":"Romaguera-Crona",
+      "catchPhrase":"Multi-layered client-server neural-net",
+      "bs":"harness real-time e-markets"
+   }
+}
