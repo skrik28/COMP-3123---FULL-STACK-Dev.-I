@@ -63,11 +63,11 @@ router.get('/notes/:noteId', (req, res) => {
 //http://mongoosejs.com/docs/api.html#findbyidandupdate_findByIdAndUpdate
 router.put('/notes/:noteId', (req, res) => {
     // Validate request
-    if(!req.body.content) {
-        return res.status(400).send({
-            message: "Note content can not be empty"
-        });
-    }
+    // if(!req.body.content) {
+    //     return res.status(400).send({
+    //         message: "Note content can not be empty"
+    //     });
+    // }
     //TODO - Write your code here to update the note using noteid
     noteModel.findByIdAndUpdate(req.params.noteId, req.body, {new:true})
         .then((note) => {
@@ -87,11 +87,11 @@ router.put('/notes/:noteId', (req, res) => {
 //http://mongoosejs.com/docs/api.html#findbyidandremove_findByIdAndRemove
 router.delete('/notes/:noteId', (req, res) => {
     // Validate request
-    if(!req.body.content) {
-        return res.status(400).send({
-            message: "Note content can not be empty"
-        });
-    }
+    // if(!req.body.content) {
+    //     return res.status(400).send({
+    //         message: "Note content can not be empty"
+    //     });
+    // }
     //TODO - Write your code here to delete the note using noteid
     noteModel.findByIdAndDelete(req.params.noteId, req.body, {new:true})
         .then((note) => {
